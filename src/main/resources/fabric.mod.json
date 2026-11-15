@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "heattorch",
+  "version": "${version}",
+  "name": "Heat Torch",
+  "description": "Duoc Ruc Lua (Heat Torch): vu khi dung ung suat nhiet (chay / dong bang) de khuech dai sat thuong.",
+  "authors": [
+    "Heat Torch Author"
+  ],
+  "license": "MIT",
+  "icon": "assets/heattorch/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.heattorch.HeatTorchMod"
+    ]
+  },
+  "mixins": [
+    "heattorch.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

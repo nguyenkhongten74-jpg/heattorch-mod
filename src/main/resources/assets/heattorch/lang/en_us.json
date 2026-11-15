@@ -1,0 +1,6 @@
+{
+  "item.heattorch.heat_torch": "Heat Torch",
+  "enchantment.heattorch.reverse": "Reverse",
+  "enchantment.heattorch.critical_melt": "Critical Melt",
+  "enchantment.heattorch.internal_cooldown": "Internal Cooldown"
+}

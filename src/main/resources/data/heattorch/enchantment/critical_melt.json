@@ -1,0 +1,25 @@
+{
+  "description": {
+    "translate": "enchantment.heattorch.critical_melt"
+  },
+  "supported_items": "#heattorch:enchantable/heat_torch",
+  "primary_items": "#heattorch:enchantable/heat_torch",
+  "weight": 5,
+  "max_level": 3,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "mainhand"
+  ],
+  "exclusive_set": [
+    "minecraft:sharpness",
+    "minecraft:breach"
+  ]
+}
